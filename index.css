@@ -1,0 +1,42 @@
+h1,
+main,
+#submitSection,
+#difficultySection {
+  display: flex;
+  justify-content: center;
+}
+
+#submitSection {
+  margin-top: 20px;
+}
+
+#difficultySection {
+  margin: 20px;
+}
+
+input {
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
+  text-align: center;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.boldRow {
+  border-top: 3px solid rgb(134, 107, 107);
+  width: 512px;
+}
+
+.boldCol {
+  border-left: 3px solid rgb(134, 107, 107);
+}
+
+.finalCol {
+  border-right: 3px solid rgb(134, 107, 107);
+}
+
+.finalRow {
+  border-bottom: 3px solid rgb(134, 107, 107);
+  width: 512px;
+}
