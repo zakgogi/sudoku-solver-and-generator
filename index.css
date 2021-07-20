@@ -1,17 +1,21 @@
-h1,
-main,
-#submitSection,
-#difficultySection {
+main {
   display: flex;
   justify-content: center;
 }
 
 #submitSection {
   margin-top: 20px;
+  text-align: center;
 }
 
 #difficultySection {
   margin: 20px;
+  text-align: center;
+}
+
+h1,
+#solutionSection {
+  text-align: center;
 }
 
 input {
@@ -21,6 +25,15 @@ input {
   text-align: center;
   font-weight: bold;
   font-size: 25px;
+}
+
+.incorrect {
+  color: red;
+  border: 1px solid red;
+}
+
+.correct {
+  color: rgb(33, 219, 33);
 }
 
 .boldRow {
